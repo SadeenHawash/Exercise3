@@ -1,0 +1,231 @@
+body {
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------- Header -------------------------------------------*/
+
+header {
+  position: relative;
+  top: 20px;
+  left: 5%;
+  background-color: #313433;
+  width: 85%;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+nav ul a {
+  color: white;
+  margin-right: 20px;
+}
+
+nav ul a:hover {
+  color: yellow;
+}
+
+/*------------------------------------------- About -------------------------------------------*/
+
+.aboutSec {
+  position: relative;
+  left: 5%;
+  width: 86%;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  margin-top: 70px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+.aboutSec img {
+  position: relative;
+  left: 40%;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/*------------------------------------------- Skills -------------------------------------------*/
+
+.skillsSec {
+  position: relative;
+  left: 5%;
+  width: 86%;
+  background-image: url("./assets/skillsBackgroundImg.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: beige;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+.skillsContainer {
+  background-color: #f0f0f071;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.skill {
+  display: inline-block;
+  background-color: #0d757f;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.skill:hover {
+  transform: translateY(-10px);
+}
+
+/*------------------------------------------- Projects -------------------------------------------*/
+
+.projectsSec {
+  position: relative;
+  left: 5%;
+  width: 86%;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  margin-top: 50px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+.projectContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.projectCard {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+  text-align: center;
+  padding: 10px;
+  padding-top: 3px;
+  margin-bottom: 40px;
+}
+
+.projectCard h3 {
+  font-weight: bold;
+}
+
+.blogPlatform {
+  position: relative;
+  top: -40px;
+  background-color: #313433;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 250px;
+  width: 1250px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+/*------------------------------------------- Skills -------------------------------------------*/
+
+.contactSec {
+  position: relative;
+  left: 5%;
+  width: 86%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+.contactSec input,
+textarea {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  height: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: transparent !important;
+  border: 1px solid #ccc;
+}
+
+.contactSec label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.contactSec textarea {
+  height: 100px;
+}
+
+.contactSec input:hover,
+.contactSec textarea:hover {
+  border: 1px solid green;
+}
+
+.contactSec input:focus,
+.contactSec textarea:focus {
+  border: none;
+}
+
+.contactSec button {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contactSec button:hover {
+  background-color: green;
+  color: white;
+}
+
+/*------------------------------------------- Footer -------------------------------------------*/
+
+footer {
+  position: sticky;
+  left: 5.5%;
+  width: 88%;
+  background-color: #313433;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+footer a {
+  color: yellow;
+}
+
+footer a:hover {
+  color: white;
+}

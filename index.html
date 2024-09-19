@@ -4,6 +4,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--start of header-->
+    <header>
+      <p style="color: #b2b2b2; font-size: 20px">
+        <span style="font-size: 30px; font-weight: bold; color: white"
+          >John Doe</span
+        >
+        <br />
+        Full Stack Developer | Designer | Programmer
+      </p>
+      <!--links-->
+      <nav>
+        <ul>
+          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="contact">Contact</a>
+        </ul>
+      </nav>
+    </header>
+    <!--end of header-->
+    <!--start of about-->
+    <section id="about" class="aboutSec">
+      <p>
+        <span style="font-size: 24px; font-weight: bold">About Me</span>
+        <br />
+        Hi, I'm John, a passionate web developer with 5 years of building
+        dynamic and responsive websites. I love coding, design, and solving
+        complex problems. I specialize in JavaScript, React, and Node.js.
+      </p>
+      <img src="./assets/aboutImg.png" alt="Profile Pic" />
+    </section>
+    <!--end of about-->
+    <!--start of skills-->
+    <section id="skills" class="skillsSec">
+      <p style="font-size: 24px; font-weight: bold">Skills</p>
+      <div class="skillsContainer">
+        <div class="skill">HTML5 & CSS3</div>
+        <div class="skill">JavaScript (ES6+)</div>
+        <div class="skill">React & Redux</div>
+        <div class="skill">Node.js & Express</div>
+        <div class="skill">SQL & NoSQL Database</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Responsive Design</div>
+      </div>
+    </section>
+    <!--end of skills-->
+    <!--start of projects-->
+    <section id="projects" class="projectsSec">
+      <p style="font-size: 24px; font-weight: bold">Projects</p>
+      <div class="projectContainer">
+        <div
+          class="projectCard"
+          style="
+            background-color: #cc00ff;
+            position: absolute;
+            top: -51%;
+            left: 5%;
+          "
+        >
+          <p>
+            <span style="font-size: 20px; font-weight: bold"
+              >Task Managment App</span
+            >
+            <br />
+            A task managment application with features like task creation,
+            categorization, and deadline tracking. Built with React and
+            Firebase.
+          </p>
+        </div>
+        <div class="projectCard" style="background-color: #e26d0e">
+          <p>
+            <span style="font-size: 20px; font-weight: bold"
+              >Portfolio Website</span
+            >
+            <br />
+            A personal portfolio website to showcase my work and skills. Built
+            with HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div class="projectCard" style="background-color: #00bfff">
+          <p>
+            <span style="font-size: 20px; font-weight: bold"
+              >E-Commerce Site</span
+            >
+            <br />
+            A fully functional e-commerce platform using React and Node.js.
+            Implements secure user authentication and Stripe payment
+            integration.
+          </p>
+        </div>
+        <div class="blogPlatform">
+          <p>
+            <span style="font-size: 20px; font-weight: bold"
+              >Blog Platform</span
+            >
+            <br />
+            A responsive blog platform where users can create, edit, and publish
+            posts. Built with Node.js, Express, and MongoDB.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--end of projects-->
+    <!--start of contact-->
+    <section id="contact" class="contactSec">
+      <span style="font-size: 24px; font-weight: bold">Contact Me</span>
+      <br />
+      If you'd like to get in touch, please fill put the form below:
+      <form>
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="Enter your name" required />
+        <label for="Email">Email:</label>
+        <input type="email" placeholder="Enter your email" required />
+        <label for="Message">Message:</label>
+        <textarea placeholder="Enter your message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <!--end of contact-->
+    <!--start of footer-->
+    <footer>
+      <p>
+        &copy; 2024 John Doe |
+        <a href="https://www.linkedin.com/in/john-doe/">GitHub</a>
+        | <a href="https://www.linkedin.com/in/john-doe/">linkedin</a>
+      </p>
+    </footer>
+    <!--end of footer-->
+  </body>
 </html>
