@@ -1,6 +1,7 @@
 body {
   background-color: #f0f0f0;
   position: relative;
+  font-family: "Times New Roman", Times, serif;
 }
 
 a {
@@ -8,6 +9,22 @@ a {
 }
 
 /*------------------------------------------- Header -------------------------------------------*/
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: skyblue;
+  padding: 2px;
+  color: white;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+.sticky a {
+  margin-right: 10px;
+}
 
 header {
   position: relative;
@@ -75,6 +92,7 @@ nav ul a:hover {
 }
 
 .skillsContainer {
+  position: static;
   background-color: #f0f0f071;
   border-radius: 10px;
   padding: 20px;
@@ -90,11 +108,11 @@ nav ul a:hover {
   margin-right: 10px;
   margin-top: 10px;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
 }
 
 .skill:hover {
-  transform: translateY(-10px);
+  position: relative;
+  top: -5px;
 }
 
 /*------------------------------------------- Projects -------------------------------------------*/
@@ -160,13 +178,12 @@ nav ul a:hover {
 .contactSec input,
 textarea {
   display: block;
-  width: 100%;
+  width: 97%;
   border-radius: 10px;
   height: 20px;
   padding: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-  background-color: transparent !important;
   border: 1px solid #ccc;
 }
 
@@ -186,7 +203,9 @@ textarea {
 
 .contactSec input:focus,
 .contactSec textarea:focus {
-  border: none;
+  background-color: pink;
+  color: palevioletred;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contactSec button {
@@ -205,11 +224,21 @@ textarea {
   color: white;
 }
 
+.contactSec button:focus {
+  background-color: blue;
+}
+
+.contactSec button:active {
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.418);
+  color: palevioletred;
+  background-color: pink;
+}
+
 /*------------------------------------------- Footer -------------------------------------------*/
 
 footer {
-  position: sticky;
-  left: 5.5%;
+  position: relative;
+  left: 5%;
   width: 88%;
   background-color: #313433;
   color: white;
@@ -232,9 +261,9 @@ footer a:hover {
 }
 
 #backToTop {
-  position: absolute;
-  bottom: 5px;
-  right: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
   background-color: #313433;
   color: white;
   border-radius: 50%;
