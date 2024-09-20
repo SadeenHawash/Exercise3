@@ -1,5 +1,6 @@
 body {
   background-color: #f0f0f0;
+  position: relative;
 }
 
 a {
@@ -228,4 +229,18 @@ footer a {
 
 footer a:hover {
   color: white;
+}
+
+#backToTop {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  background-color: #313433;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
 }
